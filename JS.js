@@ -54,13 +54,14 @@ while (i < numbers4.length) {
 const numberTask5 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 
-for (var i = 0; i < numberTask5.length; i++) {
-    if (numberTask5[i] === 7) {
-        break;
-    }
-    console.log(numberTask5[i]);
-}
+const num = numberTask5.length;
 
+let counter = 0;
+
+while (counter < num.length) {
+    console.log(num[counter]);
+    counter++;
+}
 
 // task 6
 
